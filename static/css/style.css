@@ -1,0 +1,43 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/font.otf");
+  font-stretch: ultra-expanded;
+}
+@font-face {
+  font-family: boldFont;
+  src: url("../fonts/bold-font.otf");
+  font-stretch: ultra-expanded;
+}
+div {
+  font-family: myFirstFont;
+}
+.sub-btn{
+  font-family: boldFont;
+  background-color:#03d3af;color:#ffffff;border-radius:25px;width:130px;
+  font-weight: 1000;
+  font-stretch: extra-expanded;
+}
+
+@media only screen and (max-width: 1060px) {
+  h1 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 1060px) {
+  h1 {
+    font-size: 4vw;
+  }
+  h3 {
+    font-size: 2vw;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  h1 {
+    font-size: 3vw;
+  }
+
+
+}
