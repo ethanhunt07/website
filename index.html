@@ -34,16 +34,23 @@
           <br>
       </div>
       <div class="row">
-        <form action="http://139.59.86.191:5000/early_access" method="post">
+
         <div class="col-md-4 col-sm-6" style="padding-left:0px;">
             <input type="email" name="email" class="form-control" id="email-data" placeholder="your email address" style="font-size:17px;font-style:italic;color:#ffffff;" required>
         </div>
         <div class="col-md-8" style="padding-left:0px;">
-            <input type="submit" id="contact" class="btn btn-sm sub-btn " value="GET NOTIFIED" id="bold" style="">
+            <button id="contact" class="btn btn-sm sub-btn " id="bold" style="">GET NOTIFIED</button>
         </div>
-      </form>
+
       </div>
+      <div class="row">
+        <div class="col-sm-4">
+            <div id="message"></div>
+        </div>
+      </div>
+
       <br>
+
       <div class="row hidden-xs">
           <div class="col-sm-1">
               <a href="https://github.com/karachain" target="_blank"><i class="fa fa-github fa-3x" style="color:#03d3af"></i></a>
@@ -72,7 +79,28 @@
 
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
 
+    $('#contact').click(function(){
+
+      var email_id = $("#email-data").val();
+      var msg = `
+        <div class="alert  alert-dismissible" role="alert" style="background-color:#03d3af;color:#ffffff;font-family: boldFont;" ><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>You are succesfully registered!</div>
+      `
+      $.ajax
+      ({
+          url: 'http://139.59.86.191:5000/early_access',
+          data: JSON.stringify({"email": email_id}),
+          contentType: "application/json,charset=UTF-8",
+          type: 'POST',
+          success: function(result)
+          {
+              alert("Success")
+              $('#message').html(msg)
+          }
+      });
+    });
+    </script>
   </body>
 
 </html>
