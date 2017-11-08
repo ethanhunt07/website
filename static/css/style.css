@@ -18,13 +18,25 @@ div {
   font-stretch: extra-expanded;
 }
 
+body{
+  background-color: #23252F;
+}
+@media only screen and (min-width: 760px) {
+  .container{
+    margin-left: 7%;
+  }
+}
 @media only screen and (max-width: 1060px) {
   h1 {
     font-size: 5vw;
   }
   h3 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
+  .container{
+    margin-top: 7%;
+  }
+
 }
 @media only screen and (min-width: 1060px) {
   h1 {
@@ -32,6 +44,9 @@ div {
   }
   h3 {
     font-size: 2vw;
+  }
+  .container{
+    margin-top: 3%;
   }
 }
 @media only screen and (min-width: 1500px) {
