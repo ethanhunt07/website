@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/style.css">
 
+
   </head>
 
   <body>
+
     <div class="container" >
       <div class="row" >
         <div class="col-sm-12 col-md-8" style="padding-left:0px;">
@@ -32,37 +34,39 @@
           <br>
       </div>
       <div class="row">
+        <form action="http://139.59.86.191:5000/early_access" method="post">
         <div class="col-md-4 col-sm-6" style="padding-left:0px;">
-            <input type="text" class="form-control" placeholder="your email address" style="font-size:17px;font-style:italic;color:#ffffff;">
+            <input type="email" name="email" class="form-control" id="email-data" placeholder="your email address" style="font-size:17px;font-style:italic;color:#ffffff;" required>
         </div>
         <div class="col-md-8" style="padding-left:0px;">
-            <input type="submit" class="btn btn-sm sub-btn " value="GET NOTIFIED" id="bold" style="">
+            <input type="submit" id="contact" class="btn btn-sm sub-btn " value="GET NOTIFIED" id="bold" style="">
         </div>
+      </form>
       </div>
       <br>
       <div class="row hidden-xs">
           <div class="col-sm-1">
-              <a href="https://github.com/karachain"><i class="fa fa-github fa-3x" style="color:#03d3af"></i></a>
+              <a href="https://github.com/karachain" target="_blank"><i class="fa fa-github fa-3x" style="color:#03d3af"></i></a>
           </div>
           <div class="col-sm-1">
-              <a href="https://www.facebook.com/karaproject"><i class="fa fa-facebook fa-3x" style="color:#03d3af"></i></a>
+              <a href="https://www.facebook.com/karaproject" target="_blank"><i class="fa fa-facebook fa-3x" style="color:#03d3af"></i></a>
           </div>
           <div class="col-sm-1">
-              <a href="https://twitter.com/karaproj"><i class="fa fa-twitter fa-3x" style="color:#03d3af"></i></a>
+              <a href="https://twitter.com/karaproj" target="_blank"><i class="fa fa-twitter fa-3x" style="color:#03d3af"></i></a>
           </div>
           <div class="col-sm-1">
-              <a href="https://medium.com/karachain"><i class="fa fa-medium fa-3x" style="color:#03d3af"></i></a>
+              <a href="https://medium.com/karachain" target="_blank"><i class="fa fa-medium fa-3x" style="color:#03d3af"></i></a>
           </div>
           <div class="col-sm-1">
-              <a href="https://t.me/karachain"><i class="fa fa-telegram fa-3x" style="color:#03d3af"></i></a>
+              <a href="https://t.me/karachain" target="_blank"><i class="fa fa-telegram fa-3x" style="color:#03d3af"></i></a>
           </div>
       </div>
       <div class="row visible-xs center">
-          <a href="https://github.com/karachain"><i class="fa fa-github fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://www.facebook.com/karaproject"><i class="fa fa-facebook fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;
-          <a href="https://twitter.com/karaproj"><i class="fa fa-twitter fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://medium.com/karachain"><i class="fa fa-medium fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://t.me/karachain"><i class="fa fa-telegram fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/karachain" target="_blank"><i class="fa fa-github fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.facebook.com/karaproject" target="_blank"><i class="fa fa-facebook fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;
+          <a href="https://twitter.com/karaproj" target="_blank"><i class="fa fa-twitter fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://medium.com/karachain" target="_blank"><i class="fa fa-medium fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://t.me/karachain" target="_blank"><i class="fa fa-telegram fa-2x" style="color:#03d3af"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>
 
@@ -70,4 +74,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   </body>
+
 </html>

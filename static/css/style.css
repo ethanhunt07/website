@@ -20,6 +20,9 @@ div {
 
 body{
   background-color: #23252F;
+  background-image: url("../images/Pattern.png");
+  background-repeat:repeat-y;
+  background-position: right;
 }
 @media only screen and (min-width: 760px) {
   .container{
