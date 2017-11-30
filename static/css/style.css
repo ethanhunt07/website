@@ -57,3 +57,395 @@ body{
 
 
 }
+
+@media only screen and (min-width: 1060px) {
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal h1,.modal h2,.modal h3,.modal h4{margin-top:7px !important;}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #312f37;
+    padding: 0px !important;
+    border: 0px solid #888;
+    height: 100%;
+     /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*MOdel content */
+.main {
+  background-color: #302e36;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+/*    margin-left: 6%;
+*/}
+
+img {
+   /*padding-top: 60px;*/
+}
+
+
+.pic {
+  width: 100%;
+  height: 170px;
+  font-weight: 200;
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  
+  
+  
+}
+.workk {
+  padding-left: 52px;
+}
+.succreg {
+    width: 100% !important;
+    height: 100px !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 18px !important;
+    text-align: center !important;
+    font-family: GraublauWeb !important;
+    
+    padding-top: 10px !important;
+
+}
+
+.con {
+  margin-top: 32px;
+  font-weight: 200;
+  width: 100%;
+  height: 300px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: -58px;
+  line-height:32px;
+  letter-spacing: 2px;
+
+
+}
+
+
+strong {
+  color: #8affd9;
+
+}
+
+input {
+  color: white;
+padding-left: 14px;}
+
+.btn {
+    text-transform: none; !important;
+}
+.pic h4 {
+  text-align: center;
+  margin-bottom: -12px;
+  color : #8affd9;
+  margin-left: -56px;
+}
+.con h4{
+    color : #8affd9;
+
+}
+
+.hire {
+    color: black;
+    cursor: pointer;
+    
+    position: relative;
+    border-radius: 35px;
+    background-color:#03d3af;color:#ffffff;border-radius:25px;width:130px;
+    overflow: hidden;
+    margin-left: 60%;
+  
+
+}
+
+#Hiring {
+    margin-left: 229px !important;
+    padding: 9px 11px !important;
+    margin-top: 43px;
+    }
+
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #211e23;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    padding-left: 180px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 19px;
+    margin-bottom: -1px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #4c4c4c;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 16px 38px;
+    background-color: white;
+    display: none;
+    font-size: 13px;
+    color: White;
+    background-color: #323038;
+    text-align: left;
+    word-spacing: -1px;
+    line-height: 19px;
+    font-weight: 100;
+
+}
+
+.panel {
+    margin-bottom: 2px !important;
+    }
+
+}
+/*##########################################################################################################*/
+
+@media only screen and (max-width: 440px) {
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal h1,.modal h2,.modal h3,.modal h4{margin-top:7px !important;}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #312f37;
+    padding: 0px !important;
+    border: 0px solid #888;
+    height: 100%;
+     /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*MOdel content */
+.main {
+  background-color: #302e36;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+/*    margin-left: 6%;
+*/}
+
+img {
+   /*padding-top: 60px;*/
+}
+
+
+.pic {
+  width: 100%;
+  height: 170px;
+  font-weight: 200;
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  
+  
+  
+}
+.workk {
+  padding-left: 52px;
+}
+.succreg {
+    width: 100% !important;
+    height: 100px !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 18px !important;
+    text-align: center !important;
+    font-family: GraublauWeb !important;
+    
+    padding-top: 10px !important;
+
+}
+
+.con {
+  margin-top: 15px;
+  font-weight: 200;
+  width: 100%;
+  height: 200px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: -58px;
+  line-height:32px;
+  letter-spacing: 2px;
+
+
+}
+
+strong {
+  color: #8affd9;
+
+}
+
+input {
+  color: white;
+padding-left: 14px;}
+
+.btn {
+    text-transform: none; !important;
+}
+.pic h4 {
+  text-align: center;
+  margin-bottom: -12px;
+  color : #8affd9;
+  margin-left: -56px;
+}
+.con h4{
+    color : #8affd9;
+
+}
+
+.hire {
+    color: black;
+    cursor: pointer;
+    
+    position: relative;
+    border-radius: 35px;
+    background-color:#03d3af;color:#ffffff;border-radius:25px;width:130px;
+    overflow: hidden;
+    margin-left: 60%;
+  
+
+}
+
+#Hiring {
+    margin-left: 108px !important;
+    padding: 9px 11px !important;
+    margin-top: 43px;
+    }
+
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #211e23;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    padding-left: 110px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 19px;
+    margin-bottom: -1px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #2a1737;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 16px 38px;
+    background-color: white;
+    display: none;
+    font-size: 13px;
+    color: White;
+    background-color: #323038;
+    text-align: left;
+    word-spacing: -1px;
+    line-height: 19px;
+    font-weight: 100;
+
+}
+
+.panel {
+    margin-bottom: 2px !important;
+    }
+
+}
+h4 {
+  margin-bottom: 0px !important;
+}
+
+
+  }
+
+
+.btn.btn-rounded.btn-large {
+    padding: 9px 38px;
+}
+.btn.btn-deep-pink {
+    background: #6df4ca !important;
+    border-color: #6df4ca !important;
+    color: White !important;
+}
+.btn.btn-rounded {
+    border-radius: 50px;
+    padding-top: 8px;
+    font-size: 17px;
+    height: 46px;
+}

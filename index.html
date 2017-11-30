@@ -35,9 +35,99 @@
     <div class="container" >
       <div class="row" >
         <div class="col-sm-12 col-md-8" style="padding-left:0px;">
-            <a href="http://karachain.io"><img src="static/images/logo.png" height="75%" width="75%"/></a>
-        </div>
+            <a href="http://karachain.io"><img src="static/images/logo.png" height="75%" width="75%"/></a> 
+           
+        </div> <button  type="button" id="Hiring" class="hire">We're Hiring</button>
       </div>
+
+        <div id="myModal" class="modal">
+
+                                    <!-- Modal content -->
+                                          <div class="modal-content">
+                                            <span class="close">&times;</span>
+                                          <div class="main">
+                                            <div class="succreg">
+                                                Come, work with us towards building <br><strong>India’s first blockchain.</strong>
+                                            </div>
+                                                <div class="pic">
+                                                  <div class="workk">
+                                       <h4>Why should you work with us?</h4><br>
+                                          a. Amazing work culture<br>
+                                          b. Flexible timings<br>
+                                          c. Free food and regular parties<br>
+                                          d. A brilliant team to work with<br>
+                                          e. Building India’s first blockchain - are you sure you wouldn’t like to build it yourself?<br> </p>
+                                          </div>
+                                                </div>
+                                                <div class="con" id="as">
+                        <h4>Following are the core open positions we have:</h4><br>
+       <button class="accordion">Compiler Designer</button>
+<div class="panel">
+  <p>Karachain is looking for an engineer who is passionate about improving software development tools.</p>
+  <h4>Key Qualifications</h4><br>
+  <p>The ideal candidate will have experience in multiple of the following areas, but strong candidates are encouraged to apply even if they are missing some of the qualifications:</p>
+  <p>1. Open-source communities </p>
+  <p>2. The Clang compiler internals </p>
+  <p>3. Experience debugging a complex software stack and/or system level issues </p>
+  <p>4. The LLDB debugger internals</p>
+  <p>5. Generation and/or consumption of DWARF or other debug information </p>
+  <p>6. Strong C++ coding skills and a passion for writing great code</p>
+  <p>7. Familiarity with compiler optimizations, code generation and overall design of compilers </p>
+  <p>8. Strong track record of building high quality software</p>
+  <p>9. Strong communication and teamwork skills</p>
+  <p>Compensation<br>
+₹1000K – ₹1200K</p><br>
+<center><a href="http://bit.ly/2zSAEPm" class="btn btn-deep-pink btn-large btn-rounded">Apply Now</a></center>
+</div>
+
+<button class="accordion">Blockchain Protocol Developer</button>
+<div class="panel">
+  <p>To qualify for the core position of a Blockchain Protocol Developer at Karachain, a candidate needs to be equipped with the following:
+</p><p>1. Must have experience with some combination of following DLT related technologies: Node.js, Go, Composer, Ethereum, Solidity, Truffle, web3.js, Geth.
+</p>
+<p>2. Must have excellent programming and scripting skills with a solid understanding of Object Oriented Design principles in a Linux environment. </p>
+<p>3. Strong object oriented design skills, knowledge of design patterns, data structures and algorithms . </p>
+<p>4. Must have experience with development of RESTful web services and smart contracts.</p>
+<p>5. Must have experience with database design and development. </p>
+<p>6. Experience with both SQL and NoSQL/document database technology is preferred. </p>
+<p>7. Experience with containerization (Docker) and cloud-based computing (AWS, Bluemix, Azure) is a plus. </p>
+<p>8. Business domain knowledge in Supply Chain, Manufacturing, Healthcare, Retail and Finance is a plus. </p>
+<p>9. Experience working in agile environment.</p><p>Compensation<br>
+₹1000K – ₹1200K</p><br>
+<center><a href="http://bit.ly/2ndIKfw" class="btn btn-deep-pink btn-large btn-rounded">Apply Now</a></center>
+
+
+
+</div>
+
+<button class="accordion">NodeJS Developer</button>
+<div class="panel">
+  <h4>Skills and Requirements</h4>
+  <p>
+
+• 0-1 years or more of experience in developing tech products.<br>
+• Must have experience in developing/working of APIs.<br>
+• Must be good in basic Concepts of Programming.<br>
+</p><br>
+<h4>We are looking for -  </h4>
+<p>•  Creative individuals who are not afraid to make constructive recommendations.<br>
+• Someone with a passion for programming and technology and who is always looking to learn more and improve.<br>
+• Love to solve problems, and doesn't rest till problem solved.<br>
+• Developer who would be a Tech Enthusiast having experience in building Tech products. </p>
+<br><h4>Responsibilities </h4>
+<p>Excellent exposure on Node JS (NodeJS, MongoDB, Express, AngularJS). 
+Hands-on experience in analysis, design, coding, and implementation of complex and challenging requirements. 
+Advanced Proficiency in NodeJS, MongoDB, Express and AngulrJS</p>
+<br><center><a href="http://bit.ly/2kd6M9h" class="btn btn-deep-pink btn-large btn-rounded">Apply Now</a></center>
+</div>
+
+                                                </div>
+                                                
+                                    </div>
+
+                                  </div>
+
+                                </div>
       <div class="row" style="margin-top:8%;color:white;">
           <h1>Bridging the gap between</h1>
           <h1>Developers &amp; the Blockchain.</h1>
@@ -46,6 +136,8 @@
           <h3>Sign up for early SDK access</h3>
           <br>
       </div>
+
+            
       <div class="row">
 
         <div class="col-md-4 col-sm-6" style="padding-left:0px;">
@@ -113,6 +205,79 @@
       });
     });
     </script>
+    <script type="text/javascript">
+    var modal = document.getElementById('myModal');
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("Hiring");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+    
+          
+      
+
+     
+      
+    
+
+      // When the user clicks on the button, open the modal 
+      btn.onclick = function() {
+
+               modal.style.display = "block";
+       }
+
+       // When the user clicks on <span> (x), close the modal
+       span.onclick = function() {
+           modal.style.display = "none";
+       }
+
+       // When the user clicks anywhere outside of the modal, close it
+       window.onclick = function(event) {
+           if (event.target == modal) {
+               modal.style.display = "none";
+           }
+       }
+//  
+
+
+
+    </script>
+    <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}</script>
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+function click_action(){
+  $('.accordion').removeClass('active');
+  $('.panel').removeClass('show');
+
+  this.classList.toggle("active");
+  this.nextElementSibling.classList.toggle("show");
+}
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = click_action;
+}
+</script>
 
     <script type="text/javascript">
         adroll_adv_id = "JD4TJY56FZDQXOYPIYQJTF";
